@@ -14,9 +14,6 @@ export default function PokemonImage({pokeUrl, pokeName}) {
     },
 });
 
-if(data)
-    console.log(data);
-
 return (
     <div>
         <img src={data?.sprites.front_default} height={100} width={100} />
